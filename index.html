@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="http-equiv" content="Content-type: text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="preload" href="fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf" as="font" type="font/Noto" crossorigin="anonymous">
+	<link rel="preload" href="fonts//motley-forces-font/MotleyForcesRegular-w1rZ3.ttf" as="font" type="font/motley" crossorigin="anonymous">
+	<link rel="preload" href="fonts/sunny-spells-font/SunnyspellsRegular-MV9ze.otf" as="font" type="font/sunnyspell" crossorigin="anonymous">
+
+	<meta name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"/>
+	<title></title>
+	<!--<script src="https://yandex.ru/games/sdk/v2"></script>-->
+	<!--<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script> -->
+	<!--<script src="createjs.min.js"></script>-->
+	<script src="./browser.min.js"></script>
+	<!--<script src="/sdk.js"></script>!-->
+
+
+
+
+
+</head>
+<body>
+
+		
+	<div id = 'LOL'>
+		<span class="spinner" display = "none"></span>
+	</div>
+	<div id = "header">
+		<div id = "photo"></div>
+
+
+	</div>
+
+	<div id = 'menu'>
+		<div id="menu_head">
+			<div class = 'menu_head_prev'>2 / 2 = ?</div>
+			<div class = 'menu_head_prev'>2 + 2 = ?</div>
+			<div class = 'menu_head_prev'>2 - 2 = ?</div>
+			<div class = 'menu_head_prev'>2 * 2 = ?</div>
+		</div>
+
+
+		<div id = 'menu_text'>Операции/Сложность:</div>
+		<div class = "button_block">
+			<button id = 'division' class = 'menu_button'>/</button>
+		</div>
+		<div class = "button_block">
+			<button id = 'plus' class = 'menu_button'>+</button>
+			<button class="menu_button complexity">Десятки</button>
+			
+		</div>
+		<div class = "button_block">
+			<button id = 'minus' class = 'menu_button'>-</button>
+			<button class="menu_button complexity">Десятки</button>
+			
+		</div>
+		<div class = "button_block">
+			<button id = 'multiply' class = 'menu_button'>*</button>
+			
+		</div>
+		<div class = "button_block" id = 'community_block'>
+			<button id = 'add_to_community' class = 'menu_button'>Вступить в сообщество</button>
+			
+		</div>
+		<div class="button_block">
+				<div id = "locale">🇷🇺️</div>			
+		</div>
+	</div>
+
+	<div id = "body">
+		<div id = "score_row">
+			
+
+			<button id = 'back_button' class="menu_button"><</button>
+			<div id="score_board">
+				<div id="current_score">РЕКОРД:0</div>
+				<div id="sound">				
+					🔇	
+				</div>
+				<div id="best_score">СЧЁТ:0</div>
+			</div>
+		</div>
+		<div id="game_body">
+			
+			<div id = "blackboard">
+				<div id = "profile_image">👨🏻‍🦲</div>
+				<div id = "ask_value">2 + 2</div>
+			</div>
+		</div>	
+		<div id = "buttons">
+			<button class="buttons">F</button>
+			<button class="buttons">B</button>
+			<button class="buttons">G</button>
+		</div>
+		
+						
+	</div>
+
+
+	<div id = "adv_block_flex">
+		<div id="adv_block"></div>
+	</div>
+
+	<div id="losed_modal_screen">
+			
+			
+				<div id = "heading">Я становлюсь всё злее с каждой твоей ошибкой!!!!</div>
+				<div id = "image"></div>
+				<div id = "losed_buttons">
+					<button id = "adv_button">Продолжить с рекламой ▶️</button>
+					<button id = "restart_button">Начать сначала ↻</button>
+	
+		</div>
+	</div>
+
+	<div id = "started_modal">
+		<div id = header_started_modal>
+			<div id = "close_modal"></div>
+		</div>
+			<div id = "img"></div>
+			<div id = "onboarding"> В данной игре необходимо угадать как можно больше ответов на примеры, лучший результат будет в таблице лидеров(В таблицу лидеров записывается результат кратный 10, в случае если пользователь авторизован на платформе). В случае ошибки Балди вас накажет.</div>
+			<button id = "close_modal_button">Закрыть</button>
+	</div>
+
+	<div id='wall_post_screen'>
+		<div id="wall_post_image"></div>
+		<div id="wall_post_text"></div>
+		<button id="wall_post_button"></button>
+	</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="yandex.js"></script>
+<script type="text/javascript" src="vk.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
